@@ -200,7 +200,7 @@ function updateCartModal() {
     function checkRestaurantOpen(){
         const data = new Date()
         const hora = data.getHours();
-        return hora >= 6 && hora <= 12; 
+        return hora >= 18 && hora <= 22; 
         //true = restaurante está aberto.
 
     }
