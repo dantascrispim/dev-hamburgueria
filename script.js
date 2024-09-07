@@ -170,6 +170,8 @@ function updateCartModal() {
             return;
         }
 
+
+
         if(cart.length === 0) return;
         if (addressInput.value === "") {
             addreWarn.classList.remove("hidden");
@@ -200,7 +202,7 @@ function updateCartModal() {
     function checkRestaurantOpen(){
         const data = new Date()
         const hora = data.getHours();
-        return hora >= 7 && hora <= 22; 
+        return hora >= 18 && hora <= 22; 
         //true = restaurante está aberto.
 
     }
