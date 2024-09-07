@@ -186,7 +186,7 @@ function updateCartModal() {
         }).join("");
 
             const message = encodeURI(cartItems)
-            const phone = "88994075586"
+            const phone = "+5588994075586"
 
             window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}` , "__blank");
 
