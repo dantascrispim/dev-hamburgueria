@@ -1,6 +1,10 @@
 
 # Dev Burguer
 
+App desenvolvido para facilitar as demandas de pedidos e entregas, propocionando adicionar produtos ao 
+carrinho com valores ja somados e endereço de entrega com auxilio da API do whatassap.
+
+
  
 ## Layout
 ![Captura de tela 2024-09-07 093518](https://github.com/user-attachments/assets/dd7e1105-5431-4db1-a0fa-f6b5c2a4ecc0)
